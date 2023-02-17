@@ -1,0 +1,12 @@
+@mixin font($fs, $fw, $lh, $ls) {
+  font-size: $fs;
+  font-weight: $fw;
+  line-height: $lh;
+  letter-spacing: $ls;
+}
+
+@mixin flex($dis, $jc, $ali) {
+  display: $dis;
+  justify-content: $jc;
+  align-items: $ali;
+}
